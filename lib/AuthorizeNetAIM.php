@@ -462,11 +462,11 @@ class AuthorizeNetAIM_Response extends AuthorizeNetResponse
             $this->md5_hash             = $this->_response_array[37];
             $this->card_code_response   = $this->_response_array[38];
             $this->cavv_response        = $this->_response_array[39];
-            $this->account_number       = $this->_response_array[50];
-            $this->card_type            = $this->_response_array[51];
-            $this->split_tender_id      = $this->_response_array[52];
-            $this->requested_amount     = $this->_response_array[53];
-            $this->balance_on_card      = $this->_response_array[54];
+//             $this->account_number       = $this->_response_array[50];
+//             $this->card_type            = $this->_response_array[51];
+//             $this->split_tender_id      = $this->_response_array[52];
+//             $this->requested_amount     = $this->_response_array[53];
+//             $this->balance_on_card      = $this->_response_array[54];
             
             $this->approved = ($this->response_code == self::APPROVED);
             $this->declined = ($this->response_code == self::DECLINED);
