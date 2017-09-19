@@ -43,8 +43,8 @@
 class AuthorizeNetAIM extends AuthorizeNetRequest
 {
 
-    const LIVE_URL = 'https://secure2.authorize.net/gateway/transact.dll';
-    const SANDBOX_URL = 'https://test.authorize.net/gateway/transact.dll';
+    const LIVE_URL = 'https://secure.integritypaymentgateway.com/gateway/transact.dll';
+    const SANDBOX_URL = 'https://secure.integritypaymentgateway.com/gateway/transact.dll';
     
     /**
      * Holds all the x_* name/values that will be posted in the request. 
